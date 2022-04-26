@@ -4,7 +4,7 @@ const ewelink = require('ewelink-api');
 var cors = require('cors')
 const express = require('express')
 const app = express()
-const port = 80
+const port = 3000
 app.use(cors())
 app.get("/",(req,res)=>{
   res.send("hello")
