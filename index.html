@@ -7,7 +7,7 @@
 
 <script>
   const handleClick =()=>{
-    fetch('http://localhost:3000/wifi')
+    fetch('/wifi')
   .then(response => response.json())
   .then(data => console.log(data));
 } 
