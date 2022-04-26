@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<button  id="profile_title" onclick="handleClick()">Click me</button>
+
+<script>
+  const handleClick =()=>{
+    fetch('http://localhost:3000/wifi')
+  .then(response => response.json())
+  .then(data => console.log(data));
+} 
+</script>
+
+</body>
+</html>
